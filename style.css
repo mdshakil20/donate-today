@@ -1,0 +1,331 @@
+body
+    {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+    }
+    
+.banner_section
+    {
+        width: 100%;
+        height: 670px;
+        background-image: url("images/poor_kids.png");
+        background-repeat: no-repeat;
+    }
+.banner_content
+    {
+        width: 850px;
+        text-align: center;
+        margin: 0 auto;
+    }
+.banner_section h1
+    {
+        font-size: 65px;
+        font-weight: bold;
+        color: white;
+        padding-top: 150px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+.banner_section p
+    {
+        width: 70%;
+        line-height: 25px;
+        font-size: 18px;
+        margin: 42px auto 50px auto;
+        text-align: center;
+        color: white;
+    }
+.btn
+    {
+        width: 160px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        padding:15px 20px;
+        border-radius: 5px;
+        background-color: #03BB37;
+        font-weight: bold;
+    }
+.donate_today
+    {
+        margin-top: 130px;
+        
+    }
+.donate_today h2
+    {
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+.donate_today p
+    {
+        width: 691px;
+        line-height: 25px;
+        font-size: 18px;
+        margin: 15px auto 50px auto;
+        text-align: center;
+    }
+.notes_list
+    {   
+        width: 760px;
+        display: flex;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0 auto 60px auto;
+        
+        
+    } 
+.notes_item
+    {
+        width: 136px;
+        color: #707070;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 20px 24px 20px 24px; 
+        background-color: #FAFAFA;
+        margin-right: 20px;
+    }
+#tk200
+    {
+        color: #00A52E;
+        border: 2px solid #00A52E;
+        background-color: #C2F4D0;
+    }
+.donate_today input
+    {
+        width: 760px;
+        display: block;
+        margin: 0 auto;
+        border: none;
+        border-bottom: 2px solid #575757;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        outline:0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+.donate_today input[type="text"]::placeholder 
+    {
+        font-size: 18px;
+        text-align: center; 
+        margin-bottom: 20px;
+    } 
+
+.cntr_btn
+    {
+        width: 160px;
+        margin: 50px auto;
+    }
+.donate_plan
+    {
+        margin-top: 150px;
+    }
+.donate_plan h1
+    {
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+    }
+.donate_plan .second_heading
+    {
+        font-size: 18px;
+        width: 690px;
+        text-align: center;
+        margin: 0 auto;
+    }
+.plan_option img
+    {
+        width: 55px;
+        height: 55px;
+        margin-top: 65px;
+        margin-bottom: 10px;
+
+    }
+.plan_option
+    {
+        display: flex;
+        width: 1130px;
+        margin: 30px auto;
+        
+    }
+.plan_list 
+    {
+        width: 360px;
+        height: 350px;
+        border-radius: 10px;
+        margin:20px;
+        padding: 25px;
+    }
+.plan_list h3
+    {
+        font-size: 24px;
+        font-weight: 700;
+    }
+.plan_list p
+    {
+        width: 300px;
+        font-size: 16px;
+        color: #575757;
+    }
+.food
+    {
+        background-color: #B6EEF4;
+    }
+.shelter
+    {
+        background-color: #F4B9B9;
+    }
+.education
+    {
+        background-color: #FFF4D6;
+    }
+
+.contact_us h4
+    {   
+        font-size: 20px;
+        color: rgb(37, 83, 235);
+        font-weight: 600;
+        padding-top: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+.contact_us
+    {
+        margin-top: 50px;
+        margin-bottom: 120px;
+
+    }
+    .contact_us .form
+    {
+        width: 500px;
+        height: 520px;
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 1px 2px 10px black;
+
+    }
+    .contact_us input
+    {
+        width: 70%;
+        display: block;
+        padding: 10px 20px;
+        margin: 5px auto;
+        margin-top:25px;
+        outline:0px;
+        border: none;
+        border-bottom: 2px solid #575757;
+        /* text-align: center; */
+    }
+    .contact_us .form ::placeholder 
+    {
+        text-align: left;
+        padding-left: 0px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    textarea
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px auto;
+        font-size: 16px;
+        padding: 8px 0 0 20px ;
+        margin-left: 52px;
+        margin-top: 20px;
+        width: 75%;
+        height: 30px;
+        outline: none;
+        background-color: white;
+        border: none;
+        border-bottom: 2px solid #575757;
+    }
+    .form a
+    {
+        width: 40px;
+        
+        padding: 10px 100px;
+        color: white;
+        background-color: rgb(37, 83, 235);
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+        margin: 40px auto;
+        border-radius: 50px;
+        text-decoration: none;
+        
+    }
+
+.newsletter
+    {
+        margin: 100px auto;
+    }
+.newsletter h1, .contact_us h1
+    {
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+    }
+.newsletter p
+    {
+        width: 690px;
+        font-size: 18px;
+        text-align: center;
+        color: #707070;
+        margin: 10px auto;
+    }
+.email_box
+    {
+        width: 800px;
+        height: 200px;
+        margin: 50px auto;
+        background-color: #C2F4D0;
+        text-align: center;
+    }
+.email_box input
+    {
+        width: 275px;
+        height: 50px;
+        border: none;
+        color: #707070;
+        margin: 75px auto;
+        text-align: center;
+        border-radius: 10px 0 0 10px;
+    }
+.email_box a
+    {
+        width: 155px;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        font-weight: 700;
+        height: 50px;
+        border-radius: 0 10px 10px 0;
+        padding: 14px 25px;
+        padding-bottom: 18px;
+        margin-left: -5px;
+        text-decoration: none;
+        background-color: #FF5959;
+    }
+footer
+    {
+        width: 100%;
+        height: 150px;
+        text-align: center;
+        background-color: #05074a;
+
+    }
+footer h1
+    {
+        padding-top: 20px;
+        color: #00cc3a;
+        font-family: 'Lobster', cursive;
+    }
+footer p
+    {
+        font-size: 14px;
+        color: white;
+    }
+
