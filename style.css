@@ -41,7 +41,7 @@ body
         font-size: 20px;
         text-decoration: none;
         color: white;
-        padding:15px 20px;
+        padding:15px 40px;
         border-radius: 5px;
         background-color: #03BB37;
         font-weight: bold;
@@ -115,7 +115,7 @@ body
 
 .cntr_btn
     {
-        width: 160px;
+        width: 200px;
         margin: 50px auto;
     }
 .donate_plan
@@ -186,7 +186,7 @@ body
     {   
         font-size: 20px;
         color: rgb(37, 83, 235);
-        font-weight: 600;
+        font-weight: 500;
         padding-top: 50px;
         text-align: center;
         margin-bottom: 30px;
@@ -197,7 +197,7 @@ body
         margin-bottom: 120px;
 
     }
-    .contact_us .form
+.contact_us .form
     {
         width: 500px;
         height: 520px;
@@ -207,7 +207,7 @@ body
         box-shadow: 1px 2px 10px black;
 
     }
-    .contact_us input
+.contact_us input
     {
         width: 70%;
         display: block;
@@ -219,7 +219,7 @@ body
         border-bottom: 2px solid #575757;
         /* text-align: center; */
     }
-    .contact_us .form ::placeholder 
+.contact_us .form ::placeholder 
     {
         text-align: left;
         padding-left: 0px;
@@ -227,7 +227,7 @@ body
         margin: 0;
     }
 
-    textarea
+textarea
     {
         font-family: Arial, Helvetica, sans-serif;
         margin: 10px auto;
@@ -242,11 +242,12 @@ body
         border: none;
         border-bottom: 2px solid #575757;
     }
-    .form a
+.form a
     {
         width: 40px;
-        
-        padding: 10px 100px;
+        padding: 12px 100px;
+        font-size: 18px;
+        font-weight: 600;
         color: white;
         background-color: rgb(37, 83, 235);
         display: block;
@@ -255,7 +256,6 @@ body
         margin: 40px auto;
         border-radius: 50px;
         text-decoration: none;
-        
     }
 
 .newsletter
@@ -291,13 +291,15 @@ body
         border: none;
         color: #707070;
         margin: 75px auto;
-        text-align: center;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 18px;
         border-radius: 10px 0 0 10px;
     }
 .email_box a
     {
         width: 155px;
-        font-size: 16px;
+        font-size: 18px;
         color: white;
         text-align: center;
         font-weight: 700;
